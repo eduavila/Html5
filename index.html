@@ -26,6 +26,11 @@
             padding:10px;
         }
 
+        .places{
+            float:left;
+            width:660px;
+        }
+
         .place h2{
             border-bottom:1px dashed #7E9F19;
             margin:0;
@@ -45,6 +50,41 @@
             color:#FFF;
         }
 
+        .place img{
+            border:1px solid #7E9F19;
+            float:left;
+            margin:10px 10px 0 0;
+            padding:2px;
+
+        }
+
+        .clear{
+            clear:both;
+        }
+
+        .flooter{
+            font-size:12px;
+            text-align:center;
+        }
+
+
+        .sidenote{
+            background-color:#FFFBE4;
+            border:1px solid #C9BC8f;
+            float:right;
+            padding:10px;
+            width: 260px;
+        }
+
+        .sidenote h3{
+            font-size:14px;
+            margin-top:0;
+        }
+
+        .sidenote ol{
+            font-size:12px;
+        }
+
     </style>
 
 
@@ -54,42 +94,76 @@
 
         <!-- O seu HTML vem aqui! -->
         <h1><a href=''>O que eu mais gosto em São Paulo</a></h1>
-        <div class='place'>         
-              <h2>Passear na Avenidada Paulista!</h2>
-              <img src='img/paulista.jpg'
-              <p>
-                    Um dos principais centros financeiros da cidade, a avenida Paulista também possui diversas opções de entretenimento. Endereço do Musde Arte de São Paulo, <em>MASP</em>, do Teatro Gazeta e muitos outros, a região é de fácil acesso graças as diversas linhas de ônibus que
-                    cruzam a avenida e a linha de metrô que passa por baixo dela.
-              </p>
-              <p>
-                    A Avenida Paulista sempre é assunto. O que será que estão falando a respeito no <a href='https://twitter.com/#!/search/Avenida Paulista' target='_blanck'>Twitter</a>?
-              </p>
-        </div>
-        <div class='place'>
-              <h2>Os bares da Vila Madalena</h2>
-              <p>
-                Depois de um dia de trabalho, nada melhor do que um bom chopp, um
-                petisco e uma conversa em uma mesa de bar. Opções de sobra na região das ruas Aspicuelta, Fradique Coutinho e Wisard.
-              </p>
-              <p>
-                Veja quais os melhores bares e restaurantes da região no
-                <a href='http://vejasp.abril.com.br/busca?chn=bares&qu=
-          &nbh=Pinheiros%20/%20Vila%20Madalena' target='_blank'>
-                Guia da Veja São Paulo.
-                </a>
+        <div class='places'>
+            <div class='place'>         
+                  <h2>Passear na Avenidada Paulista!</h2>
+                  <img src='img/paulista.jpg'
+                  <p>
+                        Um dos principais centros financeiros da cidade, a avenida Paulista também possui diversas opções de entretenimento. Endereço do Musde Arte de São Paulo, <em>MASP</em>, do Teatro Gazeta e muitos outros, a região é de fácil acesso graças as diversas linhas de ônibus que
+                        cruzam a avenida e a linha de metrô que passa por baixo dela.
+                  </p>
+                  <p>
+                        A Avenida Paulista sempre é assunto. O que será que estão falando a respeito no <a href='https://twitter.com/#!/search/Avenida Paulista' target='_blanck'>Twitter</a>?
+                  </p>
+                     <div class='clear'></div>
 
-              </p>
+            </div>
+            <div class='place'>
+                  <h2>Os bares da Vila Madalena</h2>
+                  <img src='img/piola.jpg' alt="A varanda do Armazén Piola, foto por Fernando Morraes">
+                  <p>
+                    Depois de um dia de trabalho, nada melhor do que um bom chopp, um
+                    petisco e uma conversa em uma mesa de bar. Opções de sobra na região das ruas Aspicuelta, Fradique Coutinho e Wisard.
+                  </p>
+                  <p>
+                    Veja quais os melhores bares e restaurantes da região no
+                    <a href='http://vejasp.abril.com.br/busca?chn=bares&qu=
+              &nbh=Pinheiros%20/%20Vila%20Madalena' target='_blank'>
+                    Guia da Veja São Paulo.
+                    </a>
+
+                  </p>
+                  <div class='clear'></div>
+            </div>
+
+            <div class='place'>
+                <h2> O Parque do Ibirapuera</h2>
+                <img src = 'img/ibirapuera.jpg' alt="O Parque do Ibirapuera, por http://">
+                <p>
+                  Um dos cartões postais da cidade, o parque dispõe de mais de 1,5 km{^2} de área verde, lagos artificiais e pistas de cooper e ciclismo. E se isso não fosse o suficiente, o parque costuma ser palco de diversos eventos culturais ao longo do ano.
+                </p>
+                <p>
+                  Veja mo <a href='http://goo.gl/maps/HoH8' target='_blank'>mapa</a> como chegar no parque.
+                </p>
+                   <div class='clear'></div>
+
+            </div>
+        </div>
+        <div class='sidenote'>
+            <h3> E Existem muito outros Lugares interessantes na cidade.. </h3>
+            <ol>    
+                <li> O Mercado Municipal. </li>
+                <li> A Sala São Paulo.</li>
+                <li>Os Estágios do principais times de futebol </li>
+                <li>Diversos museus, como o Memorial da América Latina, Museu da Língua Portuguesa e o Museu do Ipiranga.</li>
+
+                <li> E mais!</li>
+
+
+            </ol>
+
         </div>
 
-        <div class='place'>
-            <h2> O Parque do Ibirapuera</h2>
-            <p>
-              Um dos cartões postais da cidade, o parque dispõe de mais de 1,5 km{^2} de área verde, lagos artificiais e pistas de cooper e ciclismo. E se isso não fosse o suficiente, o parque costuma ser palco de diversos eventos culturais ao longo do ano.
-            </p>
-            <p>
-              Veja mo <a href='http://goo.gl/maps/HoH8' target='_blank'>mapa</a> como chegar no parque.
-            </p>
+
+
+
+        <div class='flooter clear'>
+            <p> Parte do Livro "HTML5 e CSS3: Domine a web futuro."</p>
         </div>
+
+
+
+
     </div>
 
 
